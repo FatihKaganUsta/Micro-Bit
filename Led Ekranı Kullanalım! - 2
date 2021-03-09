@@ -1,0 +1,6 @@
+let Kelime = ""
+basic.forever(function () {
+    Kelime = "Hello World!"
+    basic.showString(Kelime)
+    basic.pause(500)
+})
