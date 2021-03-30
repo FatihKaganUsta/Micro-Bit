@@ -1,0 +1,20 @@
+input.onButtonPressed(Button.AB, function () {
+    if (Math.randomBoolean()) {
+        basic.showLeds(`
+            # . . . #
+            . # . # .
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
+    } else {
+        basic.showLeds(`
+            # # # # #
+            . . # . .
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
+    }
+    basic.clearScreen()
+})
