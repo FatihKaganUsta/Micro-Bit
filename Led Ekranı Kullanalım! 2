@@ -1,6 +1,6 @@
-let Kelime = ""
+let kelime = ""
 basic.forever(function () {
-    Kelime = "Hello World!"
-    basic.showString(Kelime)
+    kelime = "Hello World!"
+    basic.showString(kelime)
     basic.pause(500)
 })
