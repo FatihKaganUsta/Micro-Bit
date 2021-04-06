@@ -1,7 +1,7 @@
-let Sayıyı_Göster = 0
+let sayiyigoster = 0
 basic.forever(function () {
     Sayıyı_Göster = 20
-    basic.showNumber(Sayıyı_Göster)
+    basic.showNumber(sayiyigoster)
     basic.pause(500)
 })
 basic.forever(function () {
