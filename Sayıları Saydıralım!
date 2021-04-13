@@ -1,0 +1,5 @@
+let baslangic = 0
+let bitis = 10
+for (let baslangic = 0; baslangic <= bitis; baslangic++) {
+    basic.showNumber(baslangic)
+}
