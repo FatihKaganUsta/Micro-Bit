@@ -1,0 +1,9 @@
+let baslangic = 0
+let bitis = 10
+basic.forever(function () {
+    if (input.buttonIsPressed(Button.AB)) {
+        for (let baslangic = 0; baslangic <= bitis; baslangic++) {
+            basic.showNumber(baslangic)
+        }
+    }
+})
