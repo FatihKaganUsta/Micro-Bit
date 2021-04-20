@@ -1,0 +1,8 @@
+let say = 0
+basic.forever(function () {
+    say = 0
+    while (say <= 10) {
+        basic.showNumber(say)
+        say += 1
+    }
+})
