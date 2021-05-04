@@ -1,0 +1,8 @@
+let sayi = 0
+basic.forever(function () {
+    sayi = 0
+    while (!(input.buttonIsPressed(Button.AB))) {
+        basic.showNumber(sayi)
+        sayi += 1
+    }
+})
