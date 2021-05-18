@@ -1,0 +1,6 @@
+let ad = "Fatih Kagan"
+let soyad = "Usta"
+basic.forever(function () {
+    basic.showString("" + ad + soyad)
+    basic.pause(1000)
+})
