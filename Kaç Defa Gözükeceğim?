@@ -1,0 +1,15 @@
+input.onButtonPressed(Button.A, function () {
+    kacDefa += 1
+    basic.showNumber(kacDefa)
+})
+input.onButtonPressed(Button.B, function () {
+    for (let index = 0; index < kacDefa; index++) {
+        basic.showIcon(IconNames.Happy)
+        basic.pause(500)
+        basic.clearScreen()
+        basic.pause(500)
+    }
+    kacDefa = 0
+})
+let kacDefa = 0
+kacDefa = 0
