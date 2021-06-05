@@ -1,0 +1,3 @@
+let isim = "FatihKağanUsta"
+basic.pause(250)
+basic.showNumber(isim.length)
