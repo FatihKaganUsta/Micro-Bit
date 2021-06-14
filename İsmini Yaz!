@@ -1,0 +1,81 @@
+let harf = 0
+let harfKayit = 0
+input.onButtonPressed(Button.A, function () {
+    harf += 1
+    if (harf == 1) {
+        basic.showString("A")
+    }
+    if (harf == 2) {
+        basic.showString("B")
+    }
+    if (harf == 3) {
+        basic.showString("C")
+    }
+    if (harf == 4) {
+        basic.showString("D")
+    }
+    if (harf == 5) {
+        basic.showString("E")
+    }
+    if (harf == 6) {
+        basic.showString("F")
+    }
+    if (harf == 7) {
+        basic.showString("G")
+    }
+    if (harf == 8) {
+        basic.showString("H")
+    }
+    if (harf == 9) {
+        basic.showString("I")
+    }
+    if (harf == 10) {
+        basic.showString("J")
+    }
+    if (harf == 11) {
+        basic.showString("K")
+    }
+    if (harf == 12) {
+        basic.showString("L")
+    }
+    if (harf == 13) {
+        basic.showString("M")
+    }
+    if (harf == 14) {
+        basic.showString("N")
+    }
+    if (harf == 15) {
+        basic.showString("O")
+    }
+    if (harf == 16) {
+        basic.showString("P")
+    }
+    if (harf == 17) {
+        basic.showString("R")
+    }
+    if (harf == 18) {
+        basic.showString("S")
+    }
+    if (harf == 19) {
+        basic.showString("T")
+    }
+    if (harf == 20) {
+        basic.showString("U")
+    }
+    if (harf == 21) {
+        basic.showString("V")
+    }
+    if (harf == 22) {
+        basic.showString("Y")
+    }
+    if (harf == 23) {
+        basic.showString("Z")
+    }
+})
+input.onButtonPressed(Button.AB, function () {
+    basic.showString("" + (harfKayit))
+})
+input.onButtonPressed(Button.B, function () {
+    harfKayit = harf
+    harf = 0
+})
